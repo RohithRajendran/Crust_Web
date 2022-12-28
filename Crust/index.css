@@ -1,0 +1,164 @@
+body
+{
+background-color: #263229;
+font-family: 'Poppins', sans-serif;
+
+}
+nav .active
+{
+    font-weight: 800;
+    color: #90FD3E!important;
+}
+.navbar .container-fluid
+{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: white!important;
+   
+}
+nav ul li
+{
+    padding-top: 2vh;
+    font-size: 16px!important;
+    margin-left: 36px;
+    font-family: 'Poppins', sans-serif;
+}
+nav form
+{
+    padding-top: 2vh;
+}
+nav form .btn
+{
+    color: #90FD3E!important;
+    padding-inline: 20px;
+    border: solid 1px #90FD3E;
+}
+.navbar-brand img
+{
+    width: 293px;
+    height: 68px;
+}
+.underlined {
+    position: relative;
+    margin-right: 1rem;
+  }
+  .underlined:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 14px;
+    width: 100%;
+    border: solid 2px #93FF3E;
+    border-color: #93FF3E transparent transparent transparent;
+    border-radius: 50%;
+  }
+  .top-container
+  {
+    background: url('./images/Header.png');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  .banner-heading p
+  {
+   font-family: "headingfont"; 
+   font-size: 64px;
+text-align: center;
+   margin-left: auto;
+   color: white;
+  }
+  .banner-heading p mark
+  {
+    background: none;
+    background: -webkit-linear-gradient(254.69deg, #008615 14.18%, #93FF3E 80.93%),
+    linear-gradient(0deg, #D1D1D1, #D1D1D1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .banner-heading
+  {
+    padding-top: 100px!important;
+  }
+  .banner-heading nav form .btn:hover
+  {
+    color: white!important;
+  }
+  .underlined1 {
+    position: relative;
+    margin-right: 1rem;
+  }
+  .underlined1:after {
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    height: 52px;
+    width: 100%;
+    border: solid 2px #AAC92C;
+    border-color: #93FF3E transparent transparent transparent;
+    background: -webkit-linear-gradient(254.69deg, #008615 14.18%, #93FF3E 80.93%),
+    linear-gradient(0deg, #D1D1D1, #D1D1D1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    border-radius: 50%;
+  }
+  .banner-heading .img
+  {
+    justify-content: space-around;
+      display: flex;
+  }
+  .banner-heading img
+    {
+        width: 100%;
+        height: auto;
+    }
+  .btn-contact
+  {
+    background:rgba(6, 139, 23, 1);  
+padding-inline: 80px;
+padding-block: 15px;
+color: white;
+border-radius: 10px;
+
+}
+  .contact-btn
+  {
+    margin-top: -20px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  .about-us
+  {
+    background: url('./images/about-us-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+  .about-us
+  {
+    padding-top: 100px!important;
+  }
+
+  .about-us h1
+  {
+    font-family: "headingfont"; 
+    color: white;
+    font-size: 64px;
+  }
+  .about-us p
+  {
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(240, 248, 255, 0.521);
+  }
+  .about-us mark
+  {
+    background: none;
+    background: -webkit-linear-gradient(254.69deg, #008615 14.18%, #93FF3E 80.93%),
+    linear-gradient(0deg, #D1D1D1, #D1D1D1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
